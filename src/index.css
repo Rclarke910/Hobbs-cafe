@@ -224,6 +224,7 @@ button {
 
 /* hero style */
 .hero {
+  background-image: url(./assets/hobbs-hero2.jpeg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -233,6 +234,7 @@ button {
   flex-direction: column;
   position: relative;
   z-index: 1;
+  
 }
 
 .hero::before {
@@ -254,13 +256,13 @@ button {
 .hero__title {
   text-align: center;
   color: #fff;
-  font-size: var(--h1-font-size);
+  font-size: 2.5rem;
   z-index: 99;
   margin-bottom: 2rem;
 }
 
 .hero__button {
-  background-color: var(--first-color);
+  background-color: orange;
   padding: 1rem 1.75rem;
   border-radius: 0.25rem;
   color: #fff;
