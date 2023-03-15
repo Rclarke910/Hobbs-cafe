@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaShoppingBag } from "react-icons/fa";
 import data from '../json/data.json'
+
 const Products = () => {
+  const [filter, setFilter] = useState('main-menu')
   return (
     <section className="products section" id="products">
         <div className="products__container container">
@@ -13,24 +15,27 @@ const Products = () => {
           <ul className="products__filters">
             <li
               className="products__item products__line active-product"
+              onClick={() => setFilter('main-menu')}
               data-filter=".delicacies"
             >
               <h3 className="products__title">Main Menu</h3>
               <span className="products__stock">3 products</span>
             </li>
-            <li className="products__item products__line" data-filter=".coffee">
+            <li className="products__item products__line" onClick={() => setFilter('coffee')} data-filter=".coffee">
               <h3 className="products__title">Coffee</h3>
               <span className="products__stock">4 products</span>
             </li>
-            <li className="products__item" data-filter=".cake">
+            <li className="products__item" onClick={() => setFilter('desserts')} data-filter=".cake">
               <h3 className="products__title">Desserts</h3>
               <span className="products__stock">4 products</span>
             </li>
           </ul>
 
           <div className="products__content grid">
+
              {data.categories.map((category,index) => {
-                return (<article className="products__card main-menu">
+                return ( category.category === filter && (
+                <article className="products__card main-menu">
                 <div className="products__shape">
                   <img
                     src={category.imageUrl}
@@ -47,6 +52,7 @@ const Products = () => {
                   </button>
                 </div>
               </article>)
+              )
              })}
             
             
