@@ -6,7 +6,7 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: hsl(0, 88%, 62%);
+  --first-color: rgb(255, 166, 0);
   --first-color-alt: hsl(0, 72%, 58%);
   --black-color: hsl(206, 12%, 12%);
   --card-color: hsl(0, 0%, 90%);
@@ -368,6 +368,7 @@ button {
   box-shadow: 0 4px 12px hsla(0, 88%, 62%, 0.2);
   background-color: var(--first-color);
   color: #fff;
+  margin-top: 50px;
 }
 /* end */
 
