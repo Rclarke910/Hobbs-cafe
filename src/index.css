@@ -435,7 +435,7 @@ button {
 .contact{
   display: flex;
   justify-content: center;
-  background-color: var(--black-color);
+  background-color: black;
   color: #fff;
   padding: 2rem 0rem 2rem;
   height: 400px;
