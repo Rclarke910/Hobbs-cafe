@@ -434,30 +434,40 @@ button {
 
 .contact{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: var(--black-color);
   color: #fff;
-  padding: 2rem 5rem 2rem;
-  height: 500px;
+  padding: 2rem 0rem 2rem;
+  height: 400px;
   align-items: center;
+  text-align: center;
 }
 .contact h2{
   color: white;
-  font-size: xx-large;
+  font-size: 40px;
 }
 
 .hours{
   justify-content: center;
-  line-height: 4rem;
+  align-items: center;
+  line-height: 3.8rem;
+  width: 50%;
 }
 
 .contact_info{
   justify-content: center;
-  line-height: 2.5rem;
+  align-items: center;
+  line-height: 1.8rem;
+  width: 50%;
 }
 
 .contact p{
   color: orange;
+}
+
+.hours_header{
+  margin-bottom: 15px;
+  margin-top: 0;
 }
 
 

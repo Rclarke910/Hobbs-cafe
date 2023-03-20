@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
 
         <div className = 'contact_info'>
-            <h2>Contact Us</h2>
+            <h2 className='contact_header'>Contact Us</h2>
             <h4>Phone</h4>
             <p>610-541-0122</p>
             <h4>E-Mail</h4>
