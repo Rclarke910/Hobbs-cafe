@@ -4,6 +4,7 @@ import Hero from './componets/Hero'
 import Products from './componets/Products'
 import Special from './componets/Special'
 import Contact from './componets/Contact'
+import Place from './componets/Place'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Special />
       <Products />
+      <Place />
       <Contact />
      </main>
     </div>
