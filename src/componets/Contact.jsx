@@ -3,7 +3,7 @@ import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <section className='contact'>
+    <section className='contact' id ='contact'>
         <div className='hours'>
             <h2 className='hours_header'>Come On In!</h2>
             <h4 className='hours_days'>Monday - Friday</h4>
@@ -21,8 +21,8 @@ const Contact = () => {
             <p>hobbscoffee@gmail.com</p>
             <h4>Address</h4>
             <p className='address'>1 Park Avenue <br /> Swarthmore, PA 19081</p>
-            <AiFillFacebook />
-            <AiFillInstagram />
+            <a href='https://www.facebook.com/hobbs.coffee1' target="_blank" className = 'socials'><AiFillFacebook /></a>
+            <a href = 'https://www.instagram.com/hobbscoffee/?hl=en' target="_blank" className = 'socials'><AiFillInstagram /></a>
         </div>
     </section>
   )

@@ -24,9 +24,9 @@ function Header() {
           <div className='nav__menu' id='nav-menu'>
             <ul className='nav__list'>
             <li className='nav__item'><a href='#home' className='nav__link active-link'>Home</a></li>
-            <li className='nav__item'><a href='#menu' className='nav__link active-link'>Menu</a></li>
+            <li className='nav__item'><a href='#products' className='nav__link active-link'>Menu</a></li>
            
-            <li className='nav__item'><a href='#about' className='nav__link active-link'>Contact</a></li>
+            <li className='nav__item'><a href='#contact' className='nav__link active-link'>Contact</a></li>
             </ul>
             <div className='nav__close' id = "nav-close">
               <IoIosClose className='bx bx-x'/>

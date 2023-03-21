@@ -13,7 +13,7 @@ const Hero = () => {
       <h1 className = 'hero__title'>
         Start Your Day The Right Way
       </h1>
-      <button className='hero__button' onClick = {orderNow}>Order Now</button>
+      <button className='hero__button' onClick = {orderNow}>View Menu</button>
     </section>
   )
 }
