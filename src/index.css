@@ -219,7 +219,7 @@ button {
 
 /* hero style */
 .hero {
-  background-image: url(./assets/hobbs-hero2.jpeg);
+  background-image: url(/assets/hobbs-hero2.jpeg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
