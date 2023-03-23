@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 
 const Place = () => {
-    const [mainPic, setMainPic] = useState('public/assets/gallery-2.jpeg')
+    const [mainPic, setMainPic] = useState('/assets/gallery-2.jpeg')
 
   return (
     <section className = 'place section' id = 'place'>
@@ -17,20 +17,20 @@ const Place = () => {
                     className='place__img-big'
                     />
                     <div className='place__img-smalls'>
-                        <img src='public/assets/gallery-2.jpeg'
+                        <img src='/assets/gallery-2.jpeg'
                         alt='no image'
-                        className={`place__img-small ${mainPic === 'public/assets/gallery-2.jpeg' ? 'active' : ''}`}
-                        onClick={() => {setMainPic('public/assets/gallery-2.jpeg')}}
+                        className={`place__img-small ${mainPic === '/assets/gallery-2.jpeg' ? 'active' : ''}`}
+                        onClick={() => {setMainPic('/assets/gallery-2.jpeg')}}
                         />
-                        <img src='public/assets/gallery-3.jpeg'
+                        <img src='/assets/gallery-3.jpeg'
                         alt=''
-                        className={`place__img-small ${mainPic === 'public/assets/gallery-3.jpeg' ? 'active' : ''}`}
-                        onClick={() => {setMainPic('public/assets/gallery-3.jpeg')}}
+                        className={`place__img-small ${mainPic === '/assets/gallery-3.jpeg' ? 'active' : ''}`}
+                        onClick={() => {setMainPic('/assets/gallery-3.jpeg')}}
                         />
-                        <img src='public/assets/gallery-4.jpeg'
+                        <img src='/assets/gallery-4.jpeg'
                         alt='no images'
-                        className={`place__img-small ${mainPic === 'public/assets/gallery-4.jpeg' ? 'active' : ''}`}
-                        onClick={() => {setMainPic('public/assets/gallery-4.jpeg')}}
+                        className={`place__img-small ${mainPic === '/assets/gallery-4.jpeg' ? 'active' : ''}`}
+                        onClick={() => {setMainPic('/assets/gallery-4.jpeg')}}
                         />
                     </div>
                 </div>

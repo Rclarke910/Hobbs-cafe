@@ -13,7 +13,7 @@ const Special = () => {
             <div className='special__category'>
                 <div className='special__group'>
                     <div className='special__img__border'>
-                        <img src='public/assets/coffee-beans.png' alt='' className='special__img'></img>
+                        <img src='/assets/coffee-beans.png' alt='' className='special__img'></img>
                     </div>
                     <h3 className='special__title'>Original Coffee</h3>
                     <p className='special__description'>We select the freshest coffee beans for a true taste.
@@ -21,7 +21,7 @@ const Special = () => {
                 </div>
                 <div className='special__group'>
                     <div className='special__img__border'>
-                        <img src='public/assets/hot-drink.png' alt='' className='special__img' ></img>
+                        <img src='/assets/hot-drink.png' alt='' className='special__img' ></img>
                     </div>
                     <h3 className='special__title'>Hot Coffee</h3>
                     <p className='special__description'>
@@ -30,7 +30,7 @@ const Special = () => {
                 </div>
                 <div className='special__group'>
                     <div className='special__img__border'>
-                        <img src='public/assets/coffee-cup.png' alt='coffee' className='special__img' ></img>
+                        <img src='/assets/coffee-cup.png' alt='coffee' className='special__img' ></img>
                     </div>
                     <h3 className='special__title'>Iced Coffee</h3>
                     <p className='special__description'>

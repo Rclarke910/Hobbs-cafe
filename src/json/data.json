@@ -5,77 +5,77 @@
         "category": "main-menu",
         "title": "Pizza",
         "price": "8",
-        "imageUrl": "src/assets/main-menu1.jpeg"
+        "imageUrl": "/assets/main-menu1.jpeg"
       },
       {
         "_id": "abc123",
         "category": "main-menu",
         "title": "3 Meat Burger",
         "price": "9",
-        "imageUrl": "src/assets/main-menu2.jpeg"
+        "imageUrl": "/assets/main-menu2.jpeg"
       },
       {
         "_id": "abc123",
         "category": "main-menu",
         "title": "Chicken Burger",
         "price": "10",
-        "imageUrl": "src/assets/main-menu3.jpeg"
+        "imageUrl": "/assets/main-menu3.jpeg"
       },
       {
         "_id": "abc123",
         "category": "main-menu",
         "title": "Burger Meal",
         "price": "12",
-        "imageUrl": "src/assets/main-menu4.jpeg"
+        "imageUrl": "/assets/main-menu4.jpeg"
       },
       {
         "_id": "abc123",
         "category": "coffee",
         "title": "Cappucino Late",
         "price": "5",
-        "imageUrl": "src/assets/coffee.jpeg"
+        "imageUrl": "/assets/coffee.jpeg"
       },
       {
         "_id": "abc123",
         "category": "coffee",
         "title": "Cappucino Original",
         "price": "7",
-        "imageUrl": "src/assets/coffee2.jpeg"
+        "imageUrl": "/assets/coffee2.jpeg"
       },
       {
         "_id": "abc123",
         "category": "coffee",
         "title": "Cappucino Ice",
         "price": "8",
-        "imageUrl": "src/assets/coffee3.jpeg"
+        "imageUrl": "/assets/coffee3.jpeg"
       },
       {
         "_id": "abc123",
         "category": "desserts",
         "title": "Cupcake",
         "price": "12",
-        "imageUrl": "src/assets/dessert1.jpeg"
+        "imageUrl": "/assets/dessert1.jpeg"
       },
       {
         "_id": "abc123",
         "category": "desserts",
         "title": "Cupcake Special",
         "price": "10",
-        "imageUrl": "src/assets/dessert2.jpeg"
+        "imageUrl": "/assets/dessert2.jpeg"
       },
       {
         "_id": "abc123",
         "category": "desserts",
         "title": "Brownies",
         "price": "8",
-        "imageUrl": "src/assets/dessert3.jpeg"
+        "imageUrl": "/assets/dessert3.jpeg"
       },
       {
         "_id": "abc123",
         "category": "desserts",
         "title": "Sweet Supreme",
         "price": "15",
-        "imageUrl": "src/assets/dessert4.jpeg"
+        "imageUrl": "/assets/dessert4.jpeg"
       }
     ]
 }
